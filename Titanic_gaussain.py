@@ -68,18 +68,8 @@ new1_gnb.fit(X_train, y_train)
 
 # print(f"the Best parameters : {new1_gnb.best_params_}")
 
-# print(gnb.score(X_test, y_test))
-# print(new1_gnb.score(X_test,y_test))
-
-
-
-
-
-
-
-
-
-
+print(gnb.score(X_test, y_test))
+print(new1_gnb.score(X_test,y_test))
 
 
 
